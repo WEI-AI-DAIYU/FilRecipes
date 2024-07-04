@@ -6,109 +6,121 @@
     <title>FilRecipes</title>
     <meta name="author" content="Jes Santerson Domisiw">
 
-    <link rel="stylesheet" href="/css/experiment.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/javascript.js" defer></script>
 </head>
 <body>
-    <header id="navbar">
+    
+    <div class="navbar-root">
         <div class="navbar-container">
-            <div class="logo-container">
-                <a href="">
-                    <ul>
-                        <li class="one">Fil</li>
-                        <li class="two">Recipes</li>
-                    </ul>
-                </a>
-            </div>
-            <nav class="navbar-list-container">
-                <ul>
-                    <li><a href="">dinners</a></li>
-                    <li><a href="">meals</a></li>
-                    <li><a href="">ingredients</a></li>
-                    <li><a href="">about us</a></li>
-                </ul>
+            <a href="" class="logo">
+                <p class="one">fil</p>
+                <p class="two">recipes</p>
+            </a>
+            <nav>
+                <a href="">dinners</a>
+                <a href="">meals</a>
+                <a href="">ingredients</a>
+                <a href="">about us</a>
+                <button class="menu"><img src="/images/assets/menu-icon.svg" alt="menu icon"></button>
             </nav>
         </div>
-    </header>
-    <div id="main-container">
-        <div class="main-content">
-            <div class="sub-container-one">
-                <div class="main-dish">
-                    <a href="#">
-                        <h1>10 best Filipino Chicken Recipes</h1>
-                        <img class="main-dish-image" src="/images/main-content/filipino-adobo-style-chicken.jpg" alt="">
-                    </a>
-                 </div>
+    </div>
+    <div class="main-container">
+        <section id="main-content">
+            <div class="main-dish">
+                <a href="">
+                    <img src="/images/main-content/filipino-adobo-style-chicken.jpg" alt="adobong manok">
+                    <p class="main-title">10 best filipino chicken recipes</p>
+                </a>
             </div>
-            <div class="sub-container-two">
-                <div class="sub-dish-container">
+            <div class="side-dish">
+                <div class="side-dish-container">
                     <a href="">
-                        <h2>best filipino party recipes</h2>
-                        <img class="sub-dish-images" src="/images/main-content/filipino-party.jpg" alt="">
+                        <img src="/images/main-content/filipino-party.jpg" alt="">
+                        <p class="sub-title">best filipino party recipes</p>
                     </a>
                 </div>
-                <div class="sub-dish-container">
+                <div class="side-dish-container">
                     <a href="">
-                        <h2>best filipino desert recipes</h2>
-                        <img class="sub-dish-images" src="/images/main-content/filipino-desert.jpg" alt="">
+                        <img src="/images/main-content/filipino-desert.jpg" alt="">
+                        <p class="sub-title">best filipino desert recipes</p>
                     </a>
                 </div>
-                <div class="sub-dish-container">
+                <div class="side-dish-container">
                     <a href="">
-                        <h2>best filipino fiesta recipes</h2>
-                        <img class="sub-dish-images" src="/images/main-content/filipino-fiesta.jpg" alt="">
+                        <img src="/images/main-content/filipino-fiesta.jpg" alt="">
+                        <p class="sub-title">best filipino fiesta recipes</p>
+                    </a>
+                </div>
+                <div class="side-dish-container">
+                    <a href="">
+                        <img src="/images/main-content/filipino-Soup-in-Bowl.jpg" alt="">
+                        <p class="sub-title">best filipino soup recipes</p>
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
     <footer>
-        <div class="footer-main-icon-container">    
-            <div class="footer-container">
-                <div class="footer-description-container">
-                    <p>contact us</p>
-                </div>
-                <div class="footer-icon-container"> 
-                    <div class="footer-icon-box"><a href=""><img class="footer-icon" src="/images/footer/Facebook.svg" alt="Facebook-logo"></a></div>
-                    <div class="footer-icon-box"><a href=""><img class="footer-icon" src="/images/footer/Instagram.svg" alt="Instagram-logo"></a></div>
-                    <div class="footer-icon-box"><a href=""><img class="footer-icon" src="/images/footer/Twitter.svg" alt="Twitter-logo"></a></div>
-                    <div class="footer-icon-box"><a href=""><img class="footer-icon" src="/images/footer/Youtube.svg" alt="Youtube-logo"></a></div>
-                    <div class="footer-icon-box"><a href=""><img class="footer-icon" src="/images/footer/Pinterest.svg" alt="Pinterest-logo"></a></div>
-                    <div title="Github" class="footer-icon-box"><a href=""><img class="footer-icon" src="/images/footer/Github.svg" alt="Github-logo"></a></div>
+        <div class="footer-container">
+            <div class="contact-us">
+                <p class="footer-description">contact us</p>
+                <div class="icon-container">
+                    <div class="icon">
+                        <a href="">
+                            <img src="/images/footer/Facebook.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="">
+                            <img src="/images/footer/Instagram.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="">
+                            <img src="/images/footer/Twitter.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="">
+                            <img src="/images/footer/Youtube.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="">
+                            <img src="/images/footer/Pinterest.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="">
+                            <img src="/images/footer/Github.svg" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="footer-container">
-                <div class="footer-description-container">
-                    <p>links</p>
-                </div>
-                <div class="footer-nav-container">
-                    <a href="">
-                        <p>dinners</p>
-                    </a>
-                    <a href="">
-                        <p>meals</p>
-                    </a>
-                    <a href="">
-                        <p>ingredients</p>
-                    </a>
-                    <a href="">
-                        <p>about us</p>
-                    </a>
+            <div class="footer-link-container">
+                <p class="footer-description">links</p>
+                <div class="footer-links">
+                    <a href=""><p>dinners</p></a>
+                    <a href="">meals</a>
+                    <a href="">ingredients</a>
+                    <a href="">about us</a>
                 </div>
             </div>
-            <div class="footer-container three">
-                <div class="footer-disclaimer-container">
-                    <p><span>Disclaimer:</span> The content showcased on this website has been collated from various sources across the web. While efforts have been made to attribute and acknowledge the original creators, some content may not be explicitly credited due to the nature of its origin or the unavailability of clear attribution. This portfolio is intended for demonstration purposes only and does not claim ownership or authorship of the individual works presented. If you believe that any content infringes upon your intellectual property rights or requires proper attribution, please contact us immediately for resolution.</p>
-                </div>
+            <div class="disclaimer">
+                <p><span>DISCLAIMER:</span> THE CONTENT SHOWCASED ON THIS WEBSITE HAS BEEN COLLATED FROM VARIOUS SOURCES ACROSS THE WEB. WHILE EFFORTS HAVE BEEN MADE TO ATTRIBUTE AND ACKNOWLEDGE THE ORIGINAL CREATORS, SOME CONTENT MAY NOT BE EXPLICITLY CREDITED DUE TO THE NATURE OF ITS ORIGIN OR THE UNAVAILABILITY OF CLEAR ATTRIBUTION. THIS PORTFOLIO IS INTENDED FOR DEMONSTRATION PURPOSES ONLY AND DOES NOT CLAIM OWNERSHIP OR AUTHORSHIP OF THE INDIVIDUAL WORKS PRESENTED. IF YOU BELIEVE THAT ANY CONTENT INFRINGES UPON YOUR INTELLECTUAL PROPERTY RIGHTS OR REQUIRES PROPER ATTRIBUTION, PLEASE CONTACT US IMMEDIATELY FOR RESOLUTION.</p>
             </div>
         </div>
-        <div class="footer-closing-container">
+        <div class="footer-end">
             <p><span>FilRecipes</span> | 2023 food recipes project portfolio</p>
         </div>
     </footer>
+    
 </body>
 </html>
 
